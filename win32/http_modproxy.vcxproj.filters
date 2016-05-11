@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\arch.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\daemonize.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\wingetopt.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\yselect.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\http_modproxy.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\arch.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\daemonize.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\debug.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\wingetopt.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\yselect.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\http_modproxy.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\makefile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{fa7c1d93-6a14-4f6c-9810-0b4708073232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{c3d15f8f-21c8-449f-aa76-64c24c1a379a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

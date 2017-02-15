@@ -225,7 +225,7 @@ startup_banner()
 	//------------------------------------------------------------------
 	// Print Banner
 	//------------------------------------------------------------------
-	printf("Flash Policy Server built " __DATE__ " at " __TIME__ "\n");
+	printf("Mod Proxy Server built " __DATE__ " at " __TIME__ "\n");
 	printf("   Version " VERSION " - (c)2014 Mycal.net\n");
 	fflush(stdout);	
 }
